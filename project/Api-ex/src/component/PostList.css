@@ -1,0 +1,96 @@
+/* Đặt nền tối với gradient và căn giữa nội dung */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f5f5, #ffffff);
+    color: #ffffff;
+    font-family: 'Poppins', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Hộp nội dung chính */
+div {
+    text-align: center;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(50, 50, 50, 0.9);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Tiêu đề */
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #00d4ff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Nút tải lại */
+button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Đang tải */
+p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #bbbbbb;
+}
+
+/* Danh sách bài viết */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+li {
+    background: linear-gradient(135deg, #292929, #1e1e1e);
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(56, 53, 53, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+li:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px #818080;
+    background-color: #818080;
+}
+
+/* Tiêu đề bài viết */
+li strong {
+    font-size: 1.3rem;
+    color: #00e676;
+    display: block;
+    margin-bottom: 8px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Nội dung bài viết */
+li p {
+    font-size: 1rem;
+    color: #dddddd;
+    margin: 0;
+    line-height: 1.6;
+}
